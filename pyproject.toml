@@ -1,0 +1,18 @@
+[project]
+name = "langgraph-interview"
+version = "0.1.0"
+description = "Multi-agent technical interview system on LangGraph"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "typing_extensions>=4.8.0",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.30.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
